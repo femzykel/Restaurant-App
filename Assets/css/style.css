@@ -1,0 +1,283 @@
+.custom-h-100 {
+    height: 100vh;
+
+}
+
+.font {
+    font-size: medium;
+}
+
+.custom-item {
+    border-radius: 0!important;
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-color: white;
+}
+
+.mt-10 {
+    margin-top: 8rem;
+}
+
+.w-20px {
+    width: 20px;
+}
+
+.font-2{
+    font-size: x-small;
+}
+
+.me {
+    border-left: 1px solid #CED4DA;
+    height: 30px;
+}
+
+.font-3{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.sort-top {
+    position: absolute;
+    top: 16px;
+    color: #CED4DA;
+}
+
+.active-link-p::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: orange;
+    bottom: 0;
+    left: 0;
+}
+
+.red-alert {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    background-color: red;
+    top: 26px;
+    right: -9px;
+}
+
+.btn-default {
+    background-color: transparent;
+}
+
+.rounded {
+    border-radius: 20px !important;
+    border-bottom: black;
+}
+
+.lyft-btn {
+    padding: 5px 10px;
+    outline: none;
+    height: 35px;
+    width: 130px;
+    border-radius: 30px;
+    font-weight: 0;
+    background: orange;
+    color: white;
+    box-shadow: 0 1px 3px 0px grey;
+    border: 1px orange;
+}
+
+.fill-btn {
+    width: 80px;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    margin-top: 5px;
+    
+}
+
+.s-icon {
+    color: #aaa;
+    margin-top: 1px;
+}
+
+.s-icon-width {
+    width: 280px;
+}
+
+.ml-6 {
+    margin-left: 4rem;
+}
+
+.pane-1 {
+    padding-left: 38px;
+    padding-right: 44px;
+}
+
+.pane-2 {
+    padding-left: 28px;
+    padding-right: 51px;
+}
+
+.pr-10 {
+    padding-right: 4rem;
+}
+
+.ml-7 {
+    margin-left: 7rem;
+}
+
+.card-style {
+    height: 226px;
+}
+
+.chart-orange {
+    height: 80px;
+    width: 27px;
+    background-color: orange;
+}
+
+.chart-green {
+    height: 80px;
+    width: 27px;
+    background-color: rgb(65, 167, 107);
+}
+
+.chart-blue {
+    height: 80px;
+    width: 27px;
+    background-color: rgb(0, 162, 255);
+}
+
+.form-control-underlined {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+    width: 250px;
+}
+
+input:focus {
+    box-shadow: none!important;
+    outline: 0;
+    background: transparent!important;
+}
+
+.pt-cus {
+    padding-top: 32px;
+}
+
+.btn-tra {
+    background-color: transparent;
+    border-color: lightgrey;
+}
+
+.card-h {
+    height: 110px;
+}
+
+.shade {
+    padding: 1px 0 1px 0 !important;
+}
+
+.tray {
+    width: 75px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 3px 20px;
+}
+
+.tilt-font {
+    font-weight: 550;
+    font-size: 12px;
+}
+
+.green-dot {
+    font-size: 6px;
+    color: rgb(43, 177, 43);
+    margin-left: 11px;
+    padding-top: 7px;
+}
+
+.font-4 {
+    font-size: 11px;
+}
+
+.my-btn {
+    width: 95px;
+    background-color: #FDF0E0;
+    color: #E9BC7B;
+    border-color: #E9BC7B;
+    font-weight: 650;
+}
+
+.my-btn:hover {
+    background-color: #FDF0E0;
+    color: black;
+
+}
+
+.parent {
+    background-color: #F8F9FA;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.parent_input {
+    border: none;
+    outline: none;
+    color: black;
+    margin-right: 5px;
+    background-color: #F8F9FA;
+    overflow: hidden;
+    position: relative;
+    right: 20px;
+
+}
+
+.parent_font_search {
+    color: rgba(14, 1, 1, 0.466);
+    position: relative;
+    right: 30px;
+
+}
+
+.parent-complaint {
+    width: 10%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+
+}
+
+.parent-complaint input {
+    outline: none;
+    border: none;
+    background-color: none;
+    color: rgba(0, 0, 0, 0.192);
+    background: none;
+    position: relative;
+    overflow: hidden;
+    right: 55px;
+}
+
+.parent_font_complaint {
+    position: relative;
+    color: rgba(0, 0, 0, 0.192);
+    right: 67px;
+
+}
+
+.name-complaint {
+    padding: 0 0;
+}
