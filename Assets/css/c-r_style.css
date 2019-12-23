@@ -6,10 +6,6 @@
     height: 25rem;
 }
 
-.btn-position {
-    margin-top: 20rem;
-}
-
 .last-td-font {
     font-weight: 500;
 }
@@ -38,4 +34,9 @@
     font-size: 6px;
     color: rgb(43, 177, 43);
     padding-top: 7px
+}
+
+.card-title-font {
+    font-size: large;
+    font-weight: 500;
 }

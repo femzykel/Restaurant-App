@@ -68,12 +68,29 @@
 
           <div class="container card-section">
             <div class="card card-h1">
+                <div class="card-header text-center bg-white font-3 font-weight-normal">Restaurants Information</div>
+                <div class="text-center text-warning card-title-font pt-4">Enter Restaurant Details</div>
                 <article class="card-body text-center">
-                    <div>
-                        <button type="button" class="btn btn rounded btn-position btn-warning text-white" data-toggle="modal" data-target="#exampleModalCenter">
-                            Save Changes
-                          </button>
-                          
+                        <form>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-5">
+                                    <div class="py-3"><input type="text" placeholder="Outlets" class="form-control font-2"></div>
+                                <div class="py-3"><input type="text" placeholder="Phone Number" class="form-control font-2 "></div>
+                                <div class="py-3"><input type="text" placeholder="Opening Time" class="form-control font-2 "></div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="py-3"><input type="text" placeholder="Location" class="form-control font-2 "></div>
+                                <div class="py-3"><input type="text" placeholder="Status" class="form-control font-2 "></div>
+                                <div class="py-3"><input type="text" placeholder="Closing Time" class="form-control font-2 "></div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="py-2">
+                            <button type="button" class="btn btn rounded py-2 px-4 btn-warning text-white font-2" data-toggle="modal" data-target="#exampleModalCenter">
+                                Save Changes
+                              </button>
+                        </div>
+                    <div> 
                           <!-- Modal -->
                           <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">

@@ -3,6 +3,10 @@
 
 }
 
+.bg-orange {
+    background-color: orange;
+}
+
 .font {
     font-size: medium;
 }
@@ -43,7 +47,7 @@
     color: #CED4DA;
 }
 
-.active-link-p::after {
+/*.active-link-p::after {
     content: "";
     position: absolute;
     width: 60px;
@@ -51,6 +55,14 @@
     background-color: orange;
     bottom: 0;
     left: 0;
+}*/
+
+.active-link-p {
+    height: 2px;
+    width: 85px;
+    background-color: orange;
+    position: relative;
+    top: 28px;
 }
 
 .red-alert {
@@ -180,8 +192,8 @@ input:focus {
 }
 
 .tray {
-    width: 75px;
-    height: 40px;
+    width: 70px;
+    height: 35px;
     border-radius: 50%;
     object-fit: cover;
     padding: 3px 20px;
@@ -232,23 +244,22 @@ input:focus {
     border: none;
     outline: none;
     color: black;
-    margin-right: 5px;
     background-color: #F8F9FA;
     overflow: hidden;
     position: relative;
-    right: 20px;
-
+    right: 5px;
+    width: 70%;
 }
 
 .parent_font_search {
     color: rgba(14, 1, 1, 0.466);
     position: relative;
-    right: 30px;
+    right: 15px;
 
 }
 
 .parent-complaint {
-    width: 10%;
+    width: 100%;
     position: relative;
     top: 0;
     left: 0;
@@ -268,13 +279,14 @@ input:focus {
     background: none;
     position: relative;
     overflow: hidden;
-    right: 55px;
+    right: 25px;
+    width: 80%;
 }
 
 .parent_font_complaint {
     position: relative;
     color: rgba(0, 0, 0, 0.192);
-    right: 67px;
+    right: 34px;
 
 }
 
